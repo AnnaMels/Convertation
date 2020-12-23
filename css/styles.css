@@ -1,0 +1,30 @@
+body {
+    background-color: #b9a7f2;
+}
+
+input {
+    
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 99%;
+}
+
+button {
+ 
+    width: auto;
+    height: 35px;
+    margin-bottom: 25px;
+    background-color: blueviolet;
+     border-radius: 4px;
+     box-shadow: blueviolet;
+}
+
+.btn {
+    margin-left: 500px;
+}
+
+.convert {
+    margin-left: 150px;
+    width: 100px;
+}
+
