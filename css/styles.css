@@ -1,22 +1,20 @@
 body {
-    background-color: #b9a7f2;
+    background-color: #c6bfdb;
 }
 
 input {
-    
     flex-direction: column;
     margin-bottom: 25px;
     width: 99%;
 }
 
 button {
- 
-    width: auto;
-    height: 35px;
     margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 4px;
     background-color: blueviolet;
-     border-radius: 4px;
-     box-shadow: blueviolet;
+    color: white;
+    box-shadow: blueviolet;
 }
 
 .btn {

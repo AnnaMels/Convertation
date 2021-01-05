@@ -7,19 +7,17 @@
     <title>Convertion</title>
 </head>
 <body class="container">
-    <input class="setNumber" type="text" id="test" onkeypress="return false">
+    <input type="text" id="input" onkeydown="return false">
     <div class="btn">
-    <button class="roman-digit">I</button>
-    <button class="roman-digit">V</button>
-    <button class="roman-digit">X</button>
-    <button class="roman-digit">L</button>
-    <button class="roman-digit">Backspace</button>
+    <button class="roman-digit I">I</button>
+    <button class="roman-digit V">V</button>
+    <button class="roman-digit X">X</button>
+    <button class="roman-digit L">L</button>
+    <button onclick="backspaceDigit()">Backspace</button>
     <button onclick="deleteDigits()">Clear</button>
-    <div class="convertButton">
-        <button class="convert">Convert</button>
-    </div>
+
 </div>
-    <input class="getNumber" type="text" id="result">
-    <script src="./Convert digits.js"></script>
+    <input type="text" id="result">
+    <script src="./convertDigits.js"></script>
 </body>
 </html>
