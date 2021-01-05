@@ -1,10 +1,10 @@
-const deleteDigits = function() {
+document.querySelector('.clear-button').addEventListener('click', (e) => {
     document.getElementById('input').value = '';
     document.getElementById("result").value = '';
-}
+  })
 
-  const x = document.querySelector('.backspace');
-    x.addEventListener('click', (e) => {
+
+  document.querySelector('.backspace').addEventListener('click', (e) => {
     const inputText = document.getElementById('input').value;
     const resultText = document.getElementById("result").value;
     document.getElementById("input").value = inputText.substring(0, inputText.length - 1);
